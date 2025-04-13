@@ -1,42 +1,47 @@
-# Car-rental-system
-To create a README file for your program, you should include information about what the program does, how to use it, any dependencies it might have, and any other relevant information. Here's a basic template you can use:
 
 ---
 
-# Car Rental Management System
+## 🚗 Car Rental Management System
 
-This program is a simple car rental management system written in C. It allows users to rent cars, return rented cars, and calculates rental fees based on the duration of rental.
-
-## Features
-
-- Rent a car: Users can select a car from available options and rent it for a specified period.
-- Return a car: Users can return a rented car and calculate the final rental fee based on the duration of use.
-- Display available cars: Users can view the list of available cars along with their models and daily rental rates.
-
-## How to Use
-
-1. **Compilation**: Compile the program using a C compiler. For example, using `gcc`:
-   ```
-   gcc -o car_rental car_rental.c
-   ```
-
-2. **Execution**: Run the compiled program:
-   ```
-   ./car_rental
-   ```
-
-3. **Interaction**: Follow the prompts to either rent a car or return a rented car. Enter the required information as prompted.
-
-## Dependencies
-
-- Standard C libraries (`stdio.h`, `string.h`)
-
-## Note
-
-- This program assumes a fixed set of cars with predefined brands, models, and rental rates.
-- Car availability is based on a simplistic approach and does not include real-time updates.
-- Users are responsible for any damages incurred during the rental period.
+This is a **Java-based Object-Oriented Car Rental Management System**. It simulates a simple rental service allowing users to **rent cars, return them, and calculate charges** based on the number of days the car was used. The system demonstrates core OOP concepts such as **encapsulation, abstraction, and modular design**.
 
 ---
 
-Feel free to customize this README according to your specific needs and add any additional information you think would be helpful for users.
+### 📌 Features
+
+- **Rent a Car**  
+  Users can view available cars and rent a car for a specified time period.
+
+- **Return a Car**  
+  Customers can return the rented car, and the system calculates the total charge, including any late fees.
+
+- **Display Available Cars**  
+  Shows a list of available cars along with their models and daily rental rates.
+
+- **Simple Date Handling**  
+  Supports rental and return dates using `java.util.Date`.
+
+---
+
+### 🛠️ How to Use
+
+#### 🔧 Compilation
+Compile the Java files using the `javac` compiler:
+
+```bash
+javac CarRentalApp.java
+```
+
+#### ▶️ Execution
+Run the program using:
+
+```bash
+java CarRentalApp
+```
+
+#### 🖥️ Interaction
+- You'll be prompted to **rent a car, return a car, or exit**.
+- Input rental and return dates in the format: `dd MM yyyy`.
+- The system will handle calculations and notify you about the booking or return details.
+
+---
